@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Own Cheat Sheet</title>
+    <link rel="stylesheet" href="resources/css/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My very own Cheat Sheet</h1>
+    <p>Here's my attempt at a cheat sheet for both table AND forms in HTML.</p>
+    <br>
+
+
+    <!--Table for Table ref-->
+    <h2>HTML Table References</h2>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Explanation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left">&lt;table&gt;</td>
+                <td>Table</td>
+                <td class="right">Used at the begin to create a table. Needs a closing &lt;/table&gt; in the end.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;thead&gt;</td>
+                <td>Table Head</td>
+                <td class="right">Used for the titles of the collums.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;tbody&gt;</td>
+                <td>Table Body</td>
+                <td class="right">The actual "body" of the table, where the data will be.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;tfoot&gt;</td>
+                <td>Table Foot</td>
+                <td class="right">The bottom of the table (optional). Used to summarize the table</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;tr&gt;</td>
+                <td>Table Rows</td>
+                <td class="right">Used to create rows of data</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;td&gt;</td>
+                <td>Table Data</td>
+                <td class="right">Used inside &lt;tr&gt;. Create as many &lt;td&gt; as the number of collums to be used.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;th&gt;</td>
+                <td>Data in Table Head</td>
+                <td class="right">Used inside Table Head instead of &lt;td&gt;. Automatic formatation shows bold.</td>
+            </tr>
+            <tr>
+                <td class="left">rowspan</td>
+                <td>Row Span</td>
+                <td class="right">Use if a row will span more than 1 collum. Example&#58; rowspan &#61; &#34;2&#34;</td>
+            </tr>
+            <tr>
+                <td class="left">colspan</td>
+                <td>Collum Span</td>
+                <td class="right">Use if a column spans more than 1 row. Example&#58; colspan &#61; &#34;2&#34;</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <br>
+
+    <!--Table for Form ref-->
+
+    <h2>HTML Form References</h2>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Explanation</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left">&lt;input&gt;</td>
+                <td>Input</td>
+                <td class="right">Used at the begining of every form command, can take different atributes shown below. Must have an &#34;id&#34; atribute to be connected to a label.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;label&gt;</td>
+                <td>Label</td>
+                <td class="right">Used in conjunction with &lt;input&gt; and can take different atributes. Must be connected to an input through a &#34;for&#34; atribute.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;input&gt; type &#61;&#34;checkbox&#34;</td>
+                <td>Checkbox</td>
+                <td class="right">Used for a multiple choice. Must have a name and a value atribute.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;input&gt; type &#61;&#34;radio&#34;</td>
+                <td>Radio Button</td>
+                <td class="right">Used for when you want to use a single choice. Must have a name and a value atribute.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;input&gt; type &#61;&#34;text&#34;</td>
+                <td>Text</td>
+                <td class="right">Used for when you want to type a short sentence. Must have a name atribute.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;textarea&gt;</td>
+                <td>Textarea type</td>
+                <td class="right">Used for when you want to write several sentences. Must have a name atribute and how many rows and columns.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;input&gt; type &#61;&#34;number&#34;</td>
+                <td>Number</td>
+                <td class="right">Used for when you want to type numbers. Must have a name atribute.</td>
+            </tr>
+            <tr>
+                <td class="left">&lt;input&gt; type &#61;&#34;range&#34;</td>
+                <td>Number Range</td>
+                <td class="right">Used for when you want to type a range of numbers, from X to Y. Must have a name atribute, a min and max range defined, and step &#40;how fast the bar
+                    moves&#41;.</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>    
+</body>
+</html>
